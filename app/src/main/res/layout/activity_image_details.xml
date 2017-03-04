@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_image_details"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.android.recyclercustom.ImageDetails">
+    <ImageView
+        android:paddingTop="20dp"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:id="@+id/imageDetails"
+        android:src="@drawable/fur0"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvImageName"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="First Aid"/>
+</LinearLayout>
